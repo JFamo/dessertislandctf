@@ -17,7 +17,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	$flag = $_POST['flag'];
 	$solver = $_POST['solver'];
 	$flag = validate($flag);
-	$fid = "j9h29my23sql30bsud98xampp21c328nc89";
+	$fid = "d9129pi291482190ssh42";
 	$solver = validate($solver);
 	
 	require('php/connect.php');
@@ -36,7 +36,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			if (!$result2){
 				die('Error: ' . mysqli_error($link));
 			}
-			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='d9129pi291482190ssh42.php'>Next Challenge</a></nav>";
+			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='ema231490n340e213r32.php'>Next Challenge</a></nav>";
 		}
 		else{
 			echo "<nav><h1>Incorrect Flag!</h1></nav>";
@@ -61,13 +61,15 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<body>
 		<a id='top' class='jump'></a>
 		<header>
-			<h1>A Structured Meal</h1>
+			<h1>A Piece of the Pi</h1>
 		</header>
 		<main>
-			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 4 / 10</h2>
+			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 5 / 10</h2>
 			<p>
-				Searching for more structure in my life, I finally followed the exxamples and connected to the world of MySQL. Suddenly, storing all my valuable desserts acquired on this island became infinitely easier. You should try it.
-				<a href="https://drive.google.com/file/d/1WRLvwrjH1zaRYy0P822qwOWGTtTyj9mQ/view?usp=sharing" target="_blank"><i class="fa fa-file"></i></a>
+				It goes without saying that the one kind of pie you desire more than any other is raspberry. U have absolutely nix in life without it. So, naturally, your first step should be some sort of secure remote login. To the pi.
+			</p>
+			<p>
+				And of course no login is complete without login information. I wonder where you can aquire this hot information for a secure connection. Something robust and portable, I bet.
 			</p>
 			<center>
 			<form method="POST" class="flagform">
