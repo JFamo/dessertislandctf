@@ -19,8 +19,6 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	$flag = validate($flag);
 	$fid = "bas21921903chaptsadudu23suite12";
 	$solver = validate($solver);
-
-	echo $flag . $solver . $fid;
 	
 	require('php/connect.php');
 	
@@ -38,14 +36,14 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			if (!$result2){
 				die('Error: ' . mysqli_error($link));
 			}
-			echo "Correct Flag!";
+			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='nextpage'>Top</a></nav>";
 		}
 		else{
-			echo "Incorrect Flag!";
+			echo "<nav><h1>Incorrect Flag!</h1></nav>";
 		}
 	}
 	else{
-		echo "No tampering with the game itself!";
+		echo "<nav><h1>No Tampering With The Game Itself!</h1></nav>";
 	}
 }
 ?>
