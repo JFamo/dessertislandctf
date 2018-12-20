@@ -12,6 +12,18 @@ if(isset($_POST['username'])){
 	}
 }
 
+if(isset($_POST['emailto'])){
+	// the message
+	$msg = "Password Reminder\nYour password is : americanpie";
+
+	// use wordwrap() if lines are longer than 70 characters
+	$msg = wordwrap($msg,70);
+
+	// send email
+	mail($_POST['emailto'],"BigDaddyCakes Password Reminder",$msg);
+
+}
+
 if(isset($_SESSION['username'])){
 	echo "<a href='pages/d21nudh2ud2j1d2dassd0821dx.php'>Go To My Secret Recipes</a>";
 }
