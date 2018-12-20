@@ -1,5 +1,53 @@
 <?php
 
+function validate($data){
+	$data = trim($data);
+  	$data = stripslashes($data);
+  	$data = htmlspecialchars($data);
+  	$data = str_replace('\\', '', $data);
+  	$data = str_replace('/', '', $data);
+  	$data = str_replace("'", '', $data);
+  	$data = str_replace(";", '', $data);
+  	$data = str_replace("(", '', $data);
+  	$data = str_replace(")", '', $data);
+  	return $data;
+}
+
+if(isset($_POST['flag']) and isset($_POST['solver'])){
+	$flag = $_POST['flag'];
+	$solver = $_POST['solver'];
+	$flag = validate($flag);
+	$fid = "bas21921903chaptsadudu23suite12";
+	$solver = validate($solver);
+
+	echo $flag . $solver . $fid;
+	
+	require('php/connect.php');
+	
+	$query= "SELECT value FROM flags WHERE id='$fid'";
+	$result = mysqli_query($link, $query);
+	if (!$result){
+		die('Error: ' . mysqli_error($link));
+	}
+	$count = mysqli_num_rows($result);
+	if($count == 1){
+		list($flagValue) = mysqli_fetch_array($result);
+		if($flagValue == $flag){
+			$query2 = "UPDATE flags SET solvers = CONCAT(solvers, ' $solver') WHERE id='$fid'";
+			$result2 = mysqli_query($link, $query2);
+			if (!$result2){
+				die('Error: ' . mysqli_error($link));
+			}
+			echo "Correct Flag!";
+		}
+		else{
+			echo "Incorrect Flag!";
+		}
+	}
+	else{
+		echo "No tampering with the game itself!";
+	}
+}
 ?>
 
 <!DOCTYPE html>
@@ -24,8 +72,8 @@
 			</p>
 			<center>
 			<form method="POST" class="flagform">
-				<input type="hidden" name="fid" value="bas21921903chaptsadudu23suite12">
-				<p>TSA{<input type="text" placeholder="flag">}</p>
+				<p>TSA{<input type="text" name="flag" placeholder="Flag...">}</p>
+				<input type="text" name="solver" placeholder="Your Name...">
 				<input type="submit" class="pinkback" value="Submit">
 			</form>
 			</center>
