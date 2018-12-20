@@ -17,7 +17,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	$flag = $_POST['flag'];
 	$solver = $_POST['solver'];
 	$flag = validate($flag);
-	$fid = "bas21921903chaptsadudu23suite12";
+	$fid = "sdj092hub18343git2390bjvmasakjs";
 	$solver = validate($solver);
 	
 	require('php/connect.php');
@@ -36,7 +36,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			if (!$result2){
 				die('Error: ' . mysqli_error($link));
 			}
-			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='sdj092hub18343git2390bjvmasakjs.php'>Next Challenge</a></nav>";
+			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='mitm20139b43h234b2h3b.php'>Next Challenge</a></nav>";
 		}
 		else{
 			echo "<nav><h1>Incorrect Flag!</h1></nav>";
@@ -61,12 +61,12 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<body>
 		<a id='top' class='jump'></a>
 		<header>
-			<h1>Sweet Challenge, Bro</h1>
+			<h1>Fork Me Up</h1>
 		</header>
 		<main>
-			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 1 / 10</h2>
+			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 2 / 10</h2>
 			<p>
-				One consistent thing about deserts, they're all sweet. I love sweets, but I just can't seem to make a selection...
+				Obviously, the supreme dessert-eating utensil is a fork. Anyone who's ever shared a dessert of any form knows <a target="_blank" href="https://en.wikipedia.org/wiki/Augustus">that</a>. 
 			</p>
 			<center>
 			<form method="POST" class="flagform">
