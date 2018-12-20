@@ -17,7 +17,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	$flag = $_POST['flag'];
 	$solver = $_POST['solver'];
 	$flag = validate($flag);
-	$fid = "bas21921903chaptsadudu23suite12";
+	$fid = "js91829j0d2018pi2931415jsdaio";
 	$solver = validate($solver);
 	
 	require('php/connect.php');
@@ -36,7 +36,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			if (!$result2){
 				die('Error: ' . mysqli_error($link));
 			}
-			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='sdj092hub18343git2390bjvmasakjs.php'>Next Challenge</a></nav>";
+			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='#.php'>Next Challenge</a></nav>";
 		}
 		else{
 			echo "<nav><h1>Incorrect Flag!</h1></nav>";
@@ -61,12 +61,12 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<body>
 		<a id='top' class='jump'></a>
 		<header>
-			<h1>Sweet Challenge, Bro</h1>
+			<h1>Pie and Coffee</h1>
 		</header>
 		<main>
-			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 1 / 10</h2>
+			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 8 / 10</h2>
 			<p>
-				One consistent thing about desserts, they're all sweet. I love sweets, but I just can't seem to make a selection...
+				At the very outskirt of dessert island js a hot coffee tower - flowing coffee down level after level, although in some strange cases, back up the other way. You can't script this stuff. If this clue doesn't make any sense, maybe you should start en the code.
 			</p>
 			<center>
 			<form method="POST" class="flagform">
@@ -80,5 +80,6 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<footer>
 		<span><a class="styledlink" href="https://github.com/Megastardaboss">Joshua Famous</a></span>
 		<span>2018</span>
+		<script src="js/scripts.js"></script>
 	</footer>
 </html>
