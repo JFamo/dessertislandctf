@@ -1,3 +1,22 @@
+<?php
+
+session_start();
+
+if(isset($_POST['username'])){
+	if($_POST['username'] == 'bdaddy4' and $_POST['password'] == 'americanpie'){
+		$_SESSION['username'] = 'bdaddy4';
+		echo "Login Good : ";
+	}
+	else{
+		echo "Invalid Login";
+	}
+}
+
+if(isset($_SESSION['username'])){
+	echo "<a href='pages/d21nudh2ud2j1d2dassd0821dx.php'>Go To My Secret Recipes</a>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>

@@ -66,7 +66,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 		<main>
 			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 3 / 10</h2>
 			<p>
-				The most important part of any cake is not the icing on top, but the icing in the middle. Unfortunately, the <a href="">website</a> I wanted to get a recipe from is blocked by a login form. Let them taste your hacking ability so that <i>we</i> may eat cake.
+				The most important part of any cake is not the icing on top, but the icing in the middle. Unfortunately, the <a href="cakesite/daddycakes.php">website</a> I wanted to get a recipe from is blocked by a login form. Let them taste your hacking ability so that <i>we</i> may eat cake.
 			</p>
 			<center>
 			<form method="POST" class="flagform">
