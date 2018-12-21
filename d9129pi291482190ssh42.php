@@ -68,9 +68,6 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			<p>
 				It goes without saying that the one kind of pie you desire more than any other is raspberry. U have absolutely nix in life without it. So, naturally, your first step should be some sort of secure remote login. To the pi.
 			</p>
-			<p>
-				And of course no login is complete without login information. I wonder where you can aquire this hot information for a secure connection. Something robust and portable, I bet.
-			</p>
 			<center>
 			<form method="POST" class="flagform">
 				<p>TSA{<input type="text" maxlength="100" name="flag" placeholder="Flag...">}</p>

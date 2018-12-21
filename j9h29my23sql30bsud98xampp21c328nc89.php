@@ -36,7 +36,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			if (!$result2){
 				die('Error: ' . mysqli_error($link));
 			}
-			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='d9129pi291482190ssh42.php'>Next Challenge</a></nav>";
+			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='js91829j0d2018pi2931415jsdaio.php'>Next Challenge</a></nav>";
 		}
 		else{
 			echo "<nav><h1>Incorrect Flag!</h1></nav>";
