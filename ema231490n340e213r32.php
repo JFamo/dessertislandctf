@@ -17,7 +17,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	$flag = $_POST['flag'];
 	$solver = $_POST['solver'];
 	$flag = validate($flag);
-	$fid = "js91829j0d2018pi2931415jsdaio";
+	$fid = "ema231490n340e213r32";
 	$solver = validate($solver);
 	
 	require('php/connect.php');
@@ -36,7 +36,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 			if (!$result2){
 				die('Error: ' . mysqli_error($link));
 			}
-			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='d9129pi291482190ssh42.php'>Next Challenge</a></nav>";
+			echo "<nav><h1>Correct Flag!</h1><div id='links'><a href='js91829j0d2018pi2931415jsdaio.php'>Next Challenge</a></nav>";
 		}
 		else{
 			echo "<nav><h1>Incorrect Flag!</h1></nav>";
@@ -61,12 +61,12 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<body>
 		<a id='top' class='jump'></a>
 		<header>
-			<h1>Pie and Coffee</h1>
+			<h1>Another Slice</h1>
 		</header>
 		<main>
-			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 5 / 10</h2>
+			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 7 / 10</h2>
 			<p>
-				At the very outskirt of dessert island js a hot coffee tower - flowing coffee down level after level, although in some strange cases, back up the other way. You can't script this stuff. If this clue doesn't make any sense, maybe you should start en the code.
+				You slip into a dream-like state as you try to fathom this vast new network. Me, personally, I like to picture it as a grotesque little bundle of potential. Perhaps there are more flags here than you expected, although you'll need a different point of entry if you're going to exploit the endless puzzle-solving purpose of this beautiful pi. Everything is just peachy.
 			</p>
 			<center>
 			<form method="POST" class="flagform">
@@ -80,6 +80,5 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<footer>
 		<span><a class="styledlink" href="https://github.com/Megastardaboss">Joshua Famous</a></span>
 		<span>2018</span>
-		<script src="js/scripts.js"></script>
 	</footer>
 </html>

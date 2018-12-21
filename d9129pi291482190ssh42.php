@@ -55,18 +55,21 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 		<title>TheDessertIsland</title>
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
+		<link href="https://www.youtube.com/watch?v=WtS6HROl9Rs">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<a id='top' class='jump'></a>
 		<header>
-			<h1>A Piece of the Pi</h1>
+			<h1>I Baked You A Pie</h1>
 		</header>
 		<main>
-			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 5 / 10</h2>
+			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 6 / 10</h2>
 			<p>
 				It goes without saying that the one kind of pie you desire more than any other is raspberry. U have absolutely nix in life without it. So, naturally, your first step should be some sort of secure remote login. To the pi.
+
+				<!-- You remember your roots! 68.80.238.29 -->
 			</p>
 			<center>
 			<form method="POST" class="flagform">
@@ -78,7 +81,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 		</main>
 	</body>
 	<footer>
-		<span><a class="styledlink" href="https://github.com/Megastardaboss">Joshua Famous</a></span>
+		<span><script>	console.log("cakepop"); </script><a class="styledlink" href="https://github.com/Megastardaboss/aCoolDessertSSH">Joshua Famous</a></span>
 		<span>2018</span>
 	</footer>
 </html>
