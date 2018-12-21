@@ -66,7 +66,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 		<main>
 			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 7 / 10</h2>
 			<p>
-				You slip into a dream-like state as you try to fathom this vast new network. Me, personally, I like to picture it as a grotesque little bundle of potential. Perhaps there are more flags here than you expected, although you'll need a different point of entry if you're going to exploit the endless puzzle-solving purpose of this beautiful pi. Everything is just peachy.
+				You are in awe at this vast new network. Me, personally, I like to <i>picture</i> it as a grotesque little bundle of potential. Perhaps there are more flags here than you expected, although you'll need a different point of entry if you're going to exploit the endless puzzle-solving purpose of this beautiful pi. Everything is just peachy. Actually, Forget The Peach, and do some hacking.
 			</p>
 			<center>
 			<form method="POST" class="flagform">
