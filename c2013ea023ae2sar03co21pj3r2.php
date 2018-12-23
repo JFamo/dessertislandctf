@@ -46,6 +46,14 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 		echo "<nav><h1>No Tampering With The Game Itself!</h1></nav>";
 	}
 }
+
+if(isset($_POST['show'])){
+	$doShow = $_POST['show'];
+	if($doShow){
+		echo "cookieboss@them4nTHEm7yhTH3136398";
+	}
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -66,7 +74,7 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 		<main>
 			<h2><i class="fa fa-birthday-cake"></i> CHALLENGE 8 / 10</h2>
 			<p>
-				Alright, you're getting pretty close to the actualization of these metaphorical pun desserts. Time to Go serious. <a href='https://en.wikipedia.org/wiki/Populares'></a>
+				Alright, you're getting pretty close to the actualization of these metaphorical pun desserts. Time to Go serious. <a href='https://en.wikipedia.org/wiki/Populares'></a><a href="https://en.wikipedia.org/wiki/Rotterdam"></a><a href="https://en.wikipedia.org/wiki/Aryan_Circle"></a>
 			</p>
 			<center>
 			<form method="POST" class="flagform">
@@ -80,5 +88,8 @@ if(isset($_POST['flag']) and isset($_POST['solver'])){
 	<footer>
 		<span><a class="styledlink" href="https://github.com/Megastardaboss">Joshua Famous</a></span>
 		<span>2018</span>
+		<form method="post">
+			<input type="hidden" name="show" value="false">
+		</form>
 	</footer>
 </html>
