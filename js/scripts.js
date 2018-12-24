@@ -1,4 +1,5 @@
-monchTime([51, 46, 49, 52, 49, 53], "23>56789:;<=>?@ABCDKFGH");
+monchTime([51, 46, 49, 52, 49, 53], "f`uN_DH@MRHUSF,(67( 6.5");
+//~~hint~~ : this string looks pretty popped, doesn't it?
 
 function convToBytes(str){
 	var data = [];
@@ -24,7 +25,7 @@ function proccessPop(pop){
       value = (loopPop % 65) + 50;
       newString = "";
       for (i=0; i < s.length; i += 2) {
-        code = parseInt(s.substring(i, i + 2), 16);
+        code = s.charCodeAt(0);
         newString += String.fromCharCode(code ^ value);
       }
 		
